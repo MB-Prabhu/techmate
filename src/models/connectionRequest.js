@@ -4,7 +4,7 @@ const connectionSchema = new mongoose.Schema({
     senderId: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: "User" //it creates a reference of ref 
+        ref: "User" //it creates a reference of User Model with ref  field 
     },
 
     receiverId:{
